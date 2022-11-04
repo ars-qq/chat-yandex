@@ -2,7 +2,6 @@
   "name": "chat-yandex",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel static/index.hbs",
     "build": "parcel build static/index.hbs"
