@@ -2,9 +2,9 @@
   "name": "chat-yandex",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel static/index.hbs",
+    "build": "parcel build static/index.hbs"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,12 @@
     "url": "https://github.com/ars-qq/chat-yandex/issues"
   },
   "homepage": "https://github.com/ars-qq/chat-yandex#readme",
-  "engine": "18.12.0"
+  "engine": "18.12.0",
+  "devDependencies": {
+    "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  }
 }
